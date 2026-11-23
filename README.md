@@ -1,5 +1,11 @@
 # Facial-Recognition
 
+> **Early project.** One of the first things I built, kept public as a record of where I started. Current work is on my [profile](https://github.com/samarthpaliwal).
+
+<!-- TODO: add a screenshot as docs/screenshot.png and uncomment.
+![Screenshot](docs/screenshot.png)
+-->
+
 A single-script webcam demo that detects faces and checks whether each one matches a known reference photo. It combines two approaches in one loop: an OpenCV Haar cascade for fast face detection, and the `face_recognition` library (dlib-based) to compute face encodings and compare them to the encoding of `samarth.jpg`. Matching faces are labeled with a greeting, everyone else is labeled "Unknown".
 
 ## Requirements
